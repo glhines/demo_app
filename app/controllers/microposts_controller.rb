@@ -40,6 +40,7 @@ class MicropostsController < ApplicationController
   # POST /microposts
   # POST /microposts.xml
   def create
+    params.permit!
     @micropost = Micropost.new(params[:micropost])
 
     respond_to do |format|
@@ -56,6 +57,7 @@ class MicropostsController < ApplicationController
   # PUT /microposts/1
   # PUT /microposts/1.xml
   def update
+    params.permit!
     @micropost = Micropost.find(params[:id])
 
     respond_to do |format|

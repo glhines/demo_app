@@ -40,6 +40,7 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.xml
   def create
+    params.permit!
     @user = User.new(params[:user])
 
     respond_to do |format|
@@ -56,6 +57,7 @@ class UsersController < ApplicationController
   # PUT /users/1
   # PUT /users/1.xml
   def update
+    params.permit!
     @user = User.find(params[:id])
 
     respond_to do |format|
