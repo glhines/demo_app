@@ -20,7 +20,7 @@ gem 'tzinfo-data'
 
 # Bundle the extra gems:
 # gem 'bj'
-gem 'nokogiri', '~> 1.12.5'
+gem 'nokogiri', '~> 1.13.2'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
