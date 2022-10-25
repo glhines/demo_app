@@ -59,12 +59,12 @@ GEM
     builder (3.2.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
-    erubi (1.10.0)
+    erubi (1.11.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    loofah (2.18.0)
+    loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -72,11 +72,11 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.16.2)
+    minitest (5.16.3)
     nio4r (2.5.8)
-    nokogiri (1.13.7-x64-mingw32)
+    nokogiri (1.13.9-x64-mingw32)
       racc (~> 1.4)
-    nokogiri (1.13.7-x86-mingw32)
+    nokogiri (1.13.9-x86-mingw32)
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.2.4)
@@ -121,19 +121,19 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2022.1)
+    tzinfo-data (1.2022.5)
       tzinfo (>= 1.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.0)
+    zeitwerk (2.6.1)
 
 PLATFORMS
   x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
-  nokogiri (~> 1.13.4)
+  nokogiri (~> 1.13.9)
   rails (~> 6.0.5.1)
   sqlite3 (= 1.4.2)
   tzinfo-data
