@@ -61,7 +61,7 @@ class MicropostsController < ApplicationController
     @micropost = Micropost.find(params[:id])
 
     respond_to do |format|
-      if @micropost.update_attributes(params[:micropost])
+      if @micropost.update(params[:micropost])
         format.html { redirect_to(@micropost, :notice => 'Micropost was successfully updated.') }
         format.xml  { head :ok }
       else
